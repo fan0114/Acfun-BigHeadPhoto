@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name       Acfun BigHeadPhoto
-// @namespace  http://use.i.E.your.homepage/
-// @version    0.1
+// @namespace  http://acfun.com/
+// @version    0.2
 // @description  mouse over the up-zhu's head
-// @match      http://*.acfun.tv/*
+// @match      http://*.acfun.com/*
 // @match      http://*.ranktv.cn/*
-// @copyright  2012+, You
+// @copyright  Zheng Fan
 // @require  http://code.jquery.com/jquery-1.9.1.js
 // ==/UserScript==
 
