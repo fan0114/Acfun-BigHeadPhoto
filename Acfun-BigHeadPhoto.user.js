@@ -33,6 +33,7 @@ $("img.avatar").mouseover(function(){
     $("div.area-comment-left").css({'width' : '200px' , 'height' : '200px' , 'vertical-align': 'bottom'});
     $("a.thumb").css({'width' : '180px' , 'height' : '180px'});
     $("img.avatar").css({'width' : '180px' , 'height' : '180px'});
+    $("div.area-comment-right").css({'margin-left' : '190px'});
 }).mouse;
 
 
