@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name       Acfun BigHeadPhoto
 // @namespace  http://acfun.com/
-// @version    0.2
+// @version    0.3
 // @description  mouse over the up-zhu's head
 // @match      http://*.acfun.com/*
+// @match      http://*.acfun.tv/*
 // @match      http://*.ranktv.cn/*
 // @copyright  Zheng Fan
 // @require  http://code.jquery.com/jquery-1.9.1.js
@@ -35,6 +36,16 @@ $("img.avatar").mouseover(function(){
     $("img.avatar").css({'width' : '180px' , 'height' : '180px'});
     $("div.area-comment-right").css({'margin-left' : '190px'});
 }).mouse;
+
+$("#btn-top-shortcut").mouseover(function(){
+//    alert("mouseover");
+    $("div.item-comment.item-comment-first").css({'height' : '250px'});
+    $("div.area-comment-left").css({'width' : '200px' , 'height' : '200px' , 'vertical-align': 'bottom'});
+    $("a.thumb").css({'width' : '180px' , 'height' : '180px'});
+    $("img.avatar").css({'width' : '180px' , 'height' : '180px'});
+    $("div.area-comment-right").css({'margin-left' : '190px'});
+}).mouse;
+
 
 
 
