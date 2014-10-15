@@ -38,6 +38,10 @@ $("img.avatar").mouseover(function(){
 }).mouse;
 }
 
+//$( document ).ajaxComplete(function() {
+//  enlargeOne();
+//});
+
 $("#btn-top-shortcut").mouseover(function(){
 //    alert("mouseover");
     $("div.item-comment.item-comment-first").css({'min-height' : '250px'});
@@ -57,6 +61,8 @@ function addBtn() {
 }
 
 var myVar=setTimeout(function () {enlargeOne()}, 2000);
+
+var myVar2=setTimeout(function () {enlargeOne()}, 5000);
 
 
 
