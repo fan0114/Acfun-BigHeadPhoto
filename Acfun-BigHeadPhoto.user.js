@@ -2,7 +2,7 @@
 // @name       Acfun BigHeadPhoto
 // @namespace  http://acfun.tv/
 // @version    0.4
-// @description  mouse over the up-zhu's head
+// @description  mouse over head photo to enlarge
 // @match      http://*.acfun.com/*
 // @match      http://*.acfun.tv/*
 // @match      http://*.ranktv.cn/*
@@ -64,6 +64,7 @@ var myVar=setTimeout(function () {enlargeOne()}, 2000);
 
 var myVar2=setTimeout(function () {enlargeOne()}, 5000);
 
+var myVar3=setTimeout(function () {enlargeOne()}, 10000);
 
-
+var myVar3=setTimeout(function () {enlargeOne()}, 20000);
 
