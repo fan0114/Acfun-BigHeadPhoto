@@ -3,7 +3,7 @@
 // @namespace  http://acfun.tv/
 // @version    0.4
 // @description  mouse over head photo to enlarge
-// @match      http://*.acfun.com/*
+// @match      http://*.acfun.cn/*
 // @match      http://*.acfun.tv/*
 // @match      http://*.ranktv.cn/*
 // @match      http://acmz.jinke.la/*
